@@ -3,7 +3,8 @@ layout: page
 title: 关于我
 ---
 #### 主线任务
-1. 找到一份低保；o.O
+1. 读完[csdiy.wiki](https://csdiy.wiki/)
+2. 找到一份低保；o.O
 
 **支线任务**
 1. 别人润国外，我先逃离伤心的荷兰；
