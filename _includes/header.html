@@ -1,0 +1,22 @@
+<aside class="logo">
+
+	{% if page.url == '/index.html' or page.url == '/' %}
+		{% assign link = '/about' %}
+		{% assign prompt = 'About the Author' %}
+	{% else %}
+		{% assign link = '/' %}
+		{% assign prompt = 'Back to Index' %}
+	{% endif %}
+
+	<a href="{{ link | prepend: site.baseurl | prepend: site.url }}">
+		<img src="{{ site.logo_url }}" class="logo-avatar">
+	</a>
+	<span class="logo-prompt code">{{ prompt }}</span>
+</aside>
+<script src="https://unpkg.com/arouline/demo.min.js"></script>
+<article>
+	<h1 class="title">:p_ᴢʜᴀɴɢ</h1><!-- ᴀʀᴏᴜ_ᴍᴏᴏɴ ᴀ ʙ ᴄ ᴅ ᴇ ғ ɢ ʜ ɪ ᴊ ᴋ ʟ ᴍ ɴ ᴏ ᴘ ǫ ʀ s ᴛ ᴜ ᴠ ᴡ x ʏ ᴢ-->
+	<div class="divider"></div>
+	<center><a href="/" >ʜᴏᴍᴇ</a> | <a href="/Message" >ᴍᴇssᴀɢᴀ</a> | <a href="/17roco" >17ʀᴏᴄᴏ</a> | <a href="/about" >ᴀʙᴏᴜᴛ</a> | <a href="/links">ʟɪɴᴋs</a></center><!-- target="_blank" xin biao qian da kai-->
+	<div class="divider"></div>
+</article>

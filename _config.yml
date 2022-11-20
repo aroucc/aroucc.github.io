@@ -1,0 +1,48 @@
+# Site Info
+title:              ":p_ᴢʜᴀɴɢ的QQ空间"
+description:        ":p_ᴢʜᴀɴɢ's Qzone"
+author_name:        ":p_ᴢʜᴀɴɢ" # change this to your name
+logo_url:           /assets/avatar.jpg
+
+# Site Settings
+url:                https://arou.cc # main url
+baseurl:            
+#permalink:          /:title
+timezone:           Asia/Shanghai # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+mathjax:            true # enables support for mathjax - set to 'false' to disable
+future:             true
+
+# Site Build
+highlighter:        rouge
+markdown:           kramdown
+kramdown:
+    input:          GFM
+sass:
+    style:          :compressed
+
+paginate: 10
+paginate_path: "index/:num"
+
+# Other Params
+include:            [ "robots.txt" ]
+exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile", "script" ]
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+
+defaults:
+  -
+    scope:
+      path:         ""
+    values:
+      layout:       "null"
+  -
+    scope:
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      type:         "posts"
+    values:
+      layout:       "post"

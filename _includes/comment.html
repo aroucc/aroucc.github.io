@@ -1,0 +1,27 @@
+<!-- 评论<br> -->
+<div id="vcomment" class="valine"></div>
+<script src="https://unpkg.com/arouline/Valine.min.js"></script>
+<style>:root {--background: #fff;--background-secondary: #f4f6f8;--header: #fafafa;--color: #222;--color-secondary: #999;;--border-color: #dcdcdc;--ghost-accent-color: #64a5e0;} </style>
+<script>
+	comment_el = '#vcomment';
+	appId = '0CtNLRFROBJLx4UOa4wXfOxl-MdYXbMMI';
+	appKey = 'NqJDLFRoqDt1yBmjmMMWb4mu';
+	placeholder = 'Write a Comment';
+	adminQqEmail = '424002526';
+	lang = 'zh-cn';
+	maxNest = 2;
+	pageSize = 6;
+new Valine({
+	el: comment_el,
+    	lang: lang,
+	serverURLs: 'https://api.raing.top/',
+	emoticon_url: 'https://unpkg.com/arouline@1.0.0/emoji',
+    	emoticon_list: ["微笑.png","可爱.png","太开心.png","鼓掌.png","嘻嘻.png","哈哈.png","笑哭.png","挤眼.png","馋嘴.png","黑线.png","汗.png","挖鼻.png","哼.png","怒.png","委屈.png","可怜.png","失望.png","悲伤.png","泪目.png","哭笑.png","害羞.png","捂眼.png","爱你.png","亲亲.png","花心.png","憧憬.png","舔屏.png","坏笑.png","阴险.png","笑而不语.png","偷笑.png","酷.png","并不简单.png","思考.png","凝问.png","问号.png","晕.png","衰.png","骷髅.png","嘘.png","闭嘴.png","傻眼.png","吃惊.png","吐.png","口罩.png","生病.png","拜拜.png","鄙视.png","懒得理你.png","左哼哼.png","右哼哼.png","抓狂.png","咒骂.png","打脸.png","叮.png","互粉.png","钱.png","打哈欠.png","困.png","睡觉.png","吃瓜.png","狗头.png","二哈.png","喵喵.png","赞.png","good.png","ok.png","耶.png","握手.png","告辞.png","过来.png","拳头.png"],
+	app_id: appId,
+    	app_key: appKey,
+	admin_qq_email: adminQqEmail,
+	placeholder: placeholder,
+	max_nest: maxNest,
+	page_size: pageSize
+});
+</script>
