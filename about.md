@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 关于我
+title: About
 ---
 #### 主线任务
 1. [csdiy.wiki](https://csdiy.wiki/)；
@@ -15,6 +15,6 @@ title: 关于我
 有事[ᴍᴇssᴀɢᴀ](/Message)留言dd；O(∩_∩)O
 
 **网页加载慢?**
-<br>`国内服务器需备案...弃之，所以套了CF加速CDN；`<br>
+<br>`国内服务器需备案...弃之，所以套了CF加速CDN`<br>
 **群友分享的海报/(ㄒoㄒ)/~~**
 ![Batman](https://aroucc.oss-cn-hangzhou.aliyuncs.com/images/xinbianfuxia.jpg)
