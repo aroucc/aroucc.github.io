@@ -1,6 +1,6 @@
 ---
 layout: page
-title: links
+title: Links
 ---
 
 Arou: [https://arou.cc/](https://arou.cc/)
