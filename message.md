@@ -1,6 +1,6 @@
 ---
 layout: page
-title: message
+title: Message
 ---
 <div>
 	{% include comment.html %}<!-- Comments -->
