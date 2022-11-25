@@ -1,6 +1,6 @@
 ---
 layout: page
-title: about
+title: About
 ---
 #### 主线任务
 1. [csdiy.wiki](https://csdiy.wiki/)；
