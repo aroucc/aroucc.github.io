@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: about
 ---
 #### 主线任务
 1. [csdiy.wiki](https://csdiy.wiki/)；
@@ -12,7 +12,7 @@ title: About
 3. 先不说言论自由，什么时候能恢复到19年，想看电影；
 
 #### 联系方式
-有事[ᴍᴇssᴀɢᴀ](/Message)留言dd；O(∩_∩)O
+有事[ᴍᴇssᴀɢᴀ](/message)留言dd；O(∩_∩)O
 
 **网页加载慢?**
 <br>`国内服务器需备案...弃之，所以套了CF加速CDN`<br>
