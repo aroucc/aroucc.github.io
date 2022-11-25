@@ -1,9 +1,11 @@
 ---
 layout: page
-title: 友情链接
+title: links
 ---
 
-Arou: https://arou.cc/
 
-Raing: https://raing.top/
+Arou: [https://arou.cc/](https://arou.cc/)
+
+
+Raing: [https://raing.top/]([https://arou.cc/](https://raing.top/))
 
