@@ -3,13 +3,7 @@ layout: page
 title: 友情链接
 ---
 
-**\# 国外域名**
+Arou: https://arou.cc/
 
-<!-- [arou](https://www.arou.cc/) \| --> [arou](https://arou.cc/)
-
-**\# 国内域名**
-
-[raing](http://raing.top/)
-
-
+Raing: https://raing.top/
 
