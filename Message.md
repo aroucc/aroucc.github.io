@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 留言板
+title: Message
 ---
 <div>
 	{% include comment.html %}<!-- Comments -->
